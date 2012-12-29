@@ -1,0 +1,27 @@
+Readme
+=========
+
+This is the source code for a simple platformer I and a friend built back in 2011 as a school project. All source files and assets are included; feel free to explore all you want and use any of our source if its useful to you. 
+
+The whole game is developed on top of Flashpunk, a wonderful set of libraries for game development in AS3. Have a look at their site if you haven't. They've got some great resources for anyone wanting to develop flash games.
+
+Version 1.0
+-----------
+
+- Initial Release.
+
+Installation
+--------------
+
+1. Download the compiled `.air` file, available under the *air/* directory. You must have Adobe AIR installed to run it. No `.swf` versions are available at the moment.
+2. Install, like any other AIR application. The file is not certified, so it may display a security warning... sorry! 
+3. Enjoy!
+
+Disclaimer
+--------------
+This game was developed by two teenagers, for a school project that was meant to grade many things including not english. Exucse the horrible spelling!   
+
+This source is distributed under the MIT License.
+
+  
+    

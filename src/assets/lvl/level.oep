@@ -1,0 +1,26 @@
+<project>
+	<name>AMI</name>
+	<settings>
+		<defaultWidth>1536</defaultWidth>
+		<defaultHeight>768</defaultHeight>
+		<workingDirectory>../img</workingDirectory>
+	</settings>
+
+	<tilesets>
+		<tileset name="wall" image="testTilemap.png" tileWidth="24" tileHeight="24"/>
+		<tileset name="back" image="fondos.png" tileWidth="24" tileHeight="24"/>
+	</tilesets>
+	
+	<objects>
+		<object name="player" image="amiRun.png" width="24" height="24" />
+		<object name="enemy" image="malo.png" width="24" height="24" />
+		<object name="goal" image="goal.png" width="24" height="48" />
+	</objects>
+	
+	<layers>
+		<tiles name="tilesBack" gridSize="24" />
+		<grid name="floors" gridSize="24" exportAsObjects="true" />
+		<tiles name="tilesAbove" gridSize="24" />
+		<objects name="things" gridSize="24" />
+	</layers>
+</project>
